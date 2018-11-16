@@ -12,6 +12,17 @@ Currently the app loads data from data.sql to a h2 database, you can use the
 h2 console to view and manipulate data.
 
 Also included is HawtIO
+## Docker
+
+Build
+```$console
+mvn clean install dockerfile:build
+```
+
+Run
+```text
+docker run -p 8080:8080 mcarr/apache-camel-fun
+```
 
 ## Links
 
